@@ -10,7 +10,6 @@ Communities are categorized into three types:
 
 Private communities are free and intended for personal use, typically among friends. The following limits apply:
 
-- Maximum of 100 members.
 - Maximum of 50 emojis, both static and animated.
 - Access restricted to first-party plugins developed by Fractured.
 
@@ -18,16 +17,15 @@ Private communities are free and intended for personal use, typically among frie
 
 Premium communities are designed for larger audiences, offering enhanced capabilities:
 
-- Unlimited members.
 - Up to 300 emojis.
 - Access to all community-created plugins.
-- 10% of user premium fees will be equally distributed to communities.
 
 ### Verified Communities
 
 Verified communities are premium communities with additional privileges. Verification is a manual process.
 
 - Custom invite URL (e.g., https://frc.gg/XXXX).
+- Discoverable through community browser.
 
 ## Users
 
@@ -52,13 +50,14 @@ Basic users have access to the following features:
 - Use of community emojis across all communities.
 - Access to select plugins developed by Fractured.
   - This includes a plugin for file sharing, as Fractured does not natively support file transfers. The plugin will offer various hosting options, including the use of personal servers.
+- Access to basic GIF-based avatar animations.
 
 ### Premium Users
 
 Premium users enjoy additional features, including:
 
 - Access to community-created plugins.
-- Custom animated user profiles and avatars, including user-generated animations.
+- Access to action-based animated avatars.
 
 ## Developers
 
@@ -71,4 +70,4 @@ Additionally, the following limitations apply:
 
 - Plugins must serve a singular purpose. Multipurpose plugins will be automatically rejected.
 - Plugins cannot establish external connections unless pre-approved.
-- Plugins will run directly on the client or community server.
+- Plugins will run directly on the client or community server inside sandboxed enviroment.
